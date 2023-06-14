@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body{
+  font-family: "Spline Sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+  color: #222;
+
+}
+
+a{
+  color: #222;
+  text-decoration: none;
+  transition: all .6s;
+}
+
+a:hover {
+  color:#f58d17;
+}
+
+img{
+  width: 100%;
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+  transition: all .5s ease;
+}
+
+.shadow-on-hover2{
+  transition: all .5s ease;
+}
+.shadow-on-hover2:hover{
+  box-shadow: 1px 12px 26px 8px rgba(0, 0, 0, 0.26);
+}
+
+.shadow-on-hover img{
+  transition: all .5s ease;
+}
+
+.granica{
+  overflow: hidden;
+}
+
+.shadow-on-hover:hover{
+  box-shadow: 1px 12px 26px 8px rgba(0, 0, 0, 0.26);
+}
+
+.shadow-on-hover:hover img{
+  transform: scale(1.2);
+}
+
+.mar{
+  margin-bottom: 40px;
+}
+
+.radius{
+  border-radius: 20px;
+}
+.radius-t{
+  border-radius: 20px 20px 0 0;
+}
+
+
+/*Кнопки*/
+.btn{
+  border-radius: 10px;
+  padding: 14px 38px;
+}
+
+.btn-brand{
+  color: #fff;
+  font-weight: 500;
+  border-color: #f58d17;
+  background-color: #f58d17;
+}
+
+.btn-brand:hover{
+  border-color: #c6771c;
+  background-color: #c6771c;
+  color: #fff;
+}
+
+
+.bg-cover{
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.slide-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0,0.5)), url(../image/cover1.jpg) ;
+}
+.slide-2{
+  background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)), url(../image/cover2.jpg) ;
+}
+.slide-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/cover3.jpg) ;
+}
+
+.CCP,.CCN{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/*About*/
+#about .divider{
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+}
+
+
+/*Intro-text*/
+.intro-text{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-text p{
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+
+
+/*Menu*/
+
+#menu .nav-pills .nav-link{
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+  background-color: #f58d17;
+  color: white;
+}
+
+
+.menu-item .stars{
+  color:#f58d17;
+}
+
+/*Features*/
+
+#features{
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/cover3.jpg) ;
+
+}
+
+.feature{
+  border: 2px solid #f58d17;
+}
+
+.feature-icon{
+  width: 80px;
+  height: 80px;
+  background-color: #f58d17;
+  color: #fff;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.height-feature{
+  height: 60%;
+}
+
+
+/*Team*/
+.Povar img {
+  max-width: 140px;
+  box-shadow: -10px -5px 0 #f58d17;
+  border-radius:100px ;
+}
+
+/*Rewiew Отзывы*/
+
+#reservation{
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../image/cover2.jpg) ;
+
+}
+
+.rewiew img{
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+}
+
+.rewiew .quote-icon{
+  font-size: 74px;
+  color: #f58d17;
+  line-height: 1;
+}
+
+.rewiew .stars{
+  color: #f58d17;
+}
+
+#reservation .carousel-indicators{
+  margin-bottom: -3rem;
+}
+
+.bg-form{
+  border-radius: 20px;
+  box-shadow: 1px 12px 26px 8px rgba(0, 0, 0, 0.26);
+}
+
+#bron .form-control:focus{
+  box-shadow: none;
+  border-color: #f58d17;
+}
+
+
+
+/*PHOTO*/
+
+.insta-post{
+  position: relative;
+  overflow: hidden;
+}
+
+.insta-post .insta-btn{
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 26px;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+.insta-post img{
+  transition: all .4s;
+}
+
+.insta-post:hover img{
+  transform: scale(1.2);
+}
+
+.insta-post:hover .insta-btn{
+  opacity: 1;
+}
+
+footer a{
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  margin-right: 10px;
+}
